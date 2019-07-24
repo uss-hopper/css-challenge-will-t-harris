@@ -61,25 +61,42 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
-.container-header {
+header {
 	background-color: #333333;
 	color: #00ff00;
 	text-align: center;
 }
 
-.container-instructions {
-	background: #ffffff;
-	text-align: center;
-}
+/*.container-instructions {*/
+/*	background: #ffffff;*/
+/*	text-align: center;*/
+/*}*/
+/*#welcome-image {*/
+/*	text-align: center;*/
+/*}*/
 
-.container-instructions img {
-	text-align: center;
-}
+/*.instructions-content {*/
+/*	float: left;*/
+/*	text-align: left;*/
+/*	width: 500px;*/
+/*	margin-left: 50px;*/
+/*}*/
 
-.instructions-wrapper {
-	border: 5px solid black;
-	margin: 50px 100px;
-}
+/*.instructions-wrapper {*/
+/*	border: 5px solid black;*/
+/*	margin: 50px 100px;*/
+/*}*/
+
+/*.instructions-wrapper img {*/
+/*	float: right;*/
+/*	width: 250px;*/
+/*	height: auto;*/
+/*	margin: 20px 20px 20px 0;*/
+/*}*/
+
+/*.about-me {*/
+/*	background: #0000ff;*/
+/*}*/
 
 
 

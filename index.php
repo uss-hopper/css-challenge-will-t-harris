@@ -14,7 +14,7 @@
 
 			<!-- HEADER -->
 			<header>
-				<div class="container-header">
+				<div class="container">
 					<h1>Dylan McDonald:~$</h1>
 					<em>Computer Scientist. Cat Lover. Picard Fan.</em>
 				</div>
@@ -22,7 +22,7 @@
 
 			<!-- INSTRUCTIONS PANEL -->
 			<section>
-				<div class="container-instructions">
+				<div class="container">
 
 					<!-- WELCOME IMAGE -->
 					<img src="images/welcome.gif" alt="welcome to my homepage">
