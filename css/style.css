@@ -73,12 +73,6 @@ img[src$=".gif"] {
 	margin-right: auto;
 }
 
-/*.container-instructions {*/
-/*	background: #ffffff;*/
-/*	text-align: center;*/
-/*}*/
-
-
 .instructions-content {
 	float: left;
 	text-align: left;
@@ -98,5 +92,16 @@ img[src$=".gif"] {
 	margin: 20px 20px 20px 0;
 }
 
+.about-me {
+	background: #0000ff;
+	color: white;
+}
 
+.about-me img {
+	float: left;
+	width: 300px;
+	height: auto;
+	border: 2px solid white;
+	margin: 20px 20px 20px 50px;
+}
 
