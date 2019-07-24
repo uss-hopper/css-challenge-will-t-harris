@@ -105,3 +105,15 @@ img[src$=".gif"] {
 	margin: 20px 20px 20px 50px;
 }
 
+.about-me p {
+	margin-right: 50px;
+}
+
+.about-me p span {
+	font-style: italic;
+	color: #ffff00;
+}
+
+.about-me h2 {
+	padding-top: 20px;
+}
