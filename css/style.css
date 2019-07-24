@@ -8,7 +8,6 @@
 html, body {
 	margin: 0;
 	box-sizing: border-box;
-	background: #222222;
 }
 
 .container {
@@ -62,8 +61,25 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
-.container-title {
+.container-header {
+	background-color: #333333;
 	color: #00ff00;
+	text-align: center;
 }
+
+.container-instructions {
+	background: #ffffff;
+	text-align: center;
+}
+
+.container-instructions img {
+	text-align: center;
+}
+
+.instructions-wrapper {
+	border: 5px solid black;
+	margin: 50px 100px;
+}
+
 
 
