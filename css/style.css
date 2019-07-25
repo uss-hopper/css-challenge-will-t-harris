@@ -8,7 +8,7 @@
 html, body {
 	margin: 0;
 	box-sizing: border-box;
-	font-family: sans-serif;
+	font-family: Arial, sans-serif;
 }
 
 .container {
@@ -71,12 +71,16 @@ header {
 	padding-bottom: 20px;
 }
 
-header div {
-	font-weight: bold;
+header div em {
+	font-size: 12px;
+	padding-right: 250px;
+	word-spacing: 3px;
 }
 
 header div h1 {
 	display: inline;
+	padding-right: 20px;
+	font-weight: bold;
 }
 
 img[src$=".gif"] {
@@ -129,4 +133,21 @@ img[src$=".gif"] {
 
 .about-me h2 {
 	padding-top: 20px;
+}
+
+section:nth-last-of-type(2) {
+	text-align: center;
+	align-content: center;
+	background: palegoldenrod;
+}
+
+section:nth-last-of-type(2) table {
+	margin: 0 auto;
+	width: 66%;
+	text-align: left;
+}
+
+section:nth-last-of-type(2) tr {
+	background: #333333;
+	color: #00ff00;
 }
