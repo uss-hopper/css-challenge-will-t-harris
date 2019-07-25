@@ -139,11 +139,10 @@ img[src$=".gif"] {
 section:nth-last-of-type(2) {
 	text-align: center;
 	align-content: center;
-	background: palegoldenrod;
 }
 
 section:nth-last-of-type(2) h2 {
-	justify-content: left;
+
 }
 
 section:nth-last-of-type(2) table {
