@@ -61,10 +61,15 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+
 header {
 	background-color: #333333;
 	color: #00ff00;
 	text-align: center;
+}
+
+header div h1 {
+	display: inline;
 }
 
 img[src$=".gif"] {
