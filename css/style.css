@@ -74,6 +74,7 @@ header {
 header div em {
 	font-size: 12px;
 	padding-right: 250px;
+	padding-left: 25px;
 	word-spacing: 3px;
 }
 
@@ -141,6 +142,10 @@ section:nth-last-of-type(2) {
 	background: palegoldenrod;
 }
 
+section:nth-last-of-type(2) h2 {
+	justify-content: left;
+}
+
 section:nth-last-of-type(2) table {
 	margin: 0 auto;
 	width: 66%;
@@ -150,4 +155,12 @@ section:nth-last-of-type(2) table {
 section:nth-last-of-type(2) tr {
 	background: #333333;
 	color: #00ff00;
+}
+
+section:nth-last-of-type(2) th {
+	padding: 10px 0 10px 10px;
+}
+
+section:nth-last-of-type(2) td {
+	padding: 10px 0 10px 10px;
 }
