@@ -74,13 +74,13 @@ header {
 header div em {
 	font-size: 12px;
 	padding-right: 250px;
-	padding-left: 25px;
+	padding-left: 20px;
 	word-spacing: 3px;
 }
 
 header div h1 {
 	display: inline;
-	padding-right: 20px;
+	padding-right: 10px;
 	font-weight: bold;
 }
 
@@ -106,12 +106,13 @@ img[src$=".gif"] {
 	float: right;
 	width: 250px;
 	height: auto;
-	margin: 20px 20px 20px 0;
+	margin: 30px 30px 30px 0;
 }
 
 .about-me {
 	background: #0000ff;
 	color: white;
+	flex: 0 0 100%;
 }
 
 .about-me img {
@@ -119,21 +120,22 @@ img[src$=".gif"] {
 	width: 300px;
 	height: auto;
 	border: 2px solid white;
-	margin: 20px 20px 20px 50px;
+	margin: 50px 20px 50px 50px;
 }
 
 .about-me p {
-	margin-right: 50px;
+	margin-right: 70px;
 }
 
 .about-me p span {
 	font-style: italic;
 	font-weight: bold;
 	color: #ffff00;
+	word-spacing: 3px;
 }
 
 .about-me h2 {
-	padding-top: 20px;
+	padding-top: 50px;
 }
 
 section:nth-last-of-type(2) {
@@ -142,7 +144,7 @@ section:nth-last-of-type(2) {
 }
 
 section:nth-last-of-type(2) h2 {
-
+	justify-content: left;
 }
 
 section:nth-last-of-type(2) table {
