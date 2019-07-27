@@ -181,4 +181,16 @@ section:nth-last-of-type(1) h2 {
 
 label {
 	color: lime;
+	display: block;
+	margin: 10px 0 10px 25px;
 }
+
+input {
+	display: block;
+	margin-left: 25px;
+}
+
+textarea {
+	margin-left: 25px;
+}
+
