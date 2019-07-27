@@ -143,6 +143,7 @@ img[src$=".gif"] {
 section:nth-last-of-type(2) {
 	text-align: center;
 	align-content: center;
+	padding-bottom: 35px;
 }
 
 section:nth-last-of-type(2) h2 {
@@ -167,6 +168,11 @@ section:nth-last-of-type(2) th {
 
 section:nth-last-of-type(2) td {
 	padding: 10px 0 10px 10px;
+}
+
+section:nth-last-of-type(1) {
+	background: #333333;
+	padding: 20px 0;
 }
 
 section:nth-last-of-type(1) h2 {
