@@ -177,6 +177,8 @@ section:nth-last-of-type(1) {
 
 section:nth-last-of-type(1) h2 {
 	color: lime;
+	margin-left: 25px;
+	padding-top: 20px;
 }
 
 .form-wrapper {
@@ -200,3 +202,14 @@ textarea {
 	margin-left: 25px;
 }
 
+button {
+	background: lime;
+	margin-top: 10px;
+	margin-left: 25px;
+	padding: 3px 10px 3px 10px;
+	border: none;
+}
+
+button:nth-last-of-type(1) {
+	margin-left: 2px;
+}
