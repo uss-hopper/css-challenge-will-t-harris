@@ -62,6 +62,9 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+.container {
+	width: auto;
+}
 
 header {
 	background-color: #333333;
@@ -112,7 +115,6 @@ img[src$=".gif"] {
 .about-me {
 	background: #0000ff;
 	color: white;
-	flex: 0 0 100%;
 }
 
 .about-me img {
@@ -120,11 +122,11 @@ img[src$=".gif"] {
 	width: 300px;
 	height: auto;
 	border: 2px solid white;
-	margin: 50px 20px 50px 50px;
+	margin: 50px 20px 50px 70px;
 }
 
 .about-me p {
-	margin-right: 70px;
+	margin-right: 50px;
 }
 
 .about-me p span {
@@ -144,7 +146,8 @@ section:nth-last-of-type(2) {
 }
 
 section:nth-last-of-type(2) h2 {
-	justify-content: left;
+	display: inline-block;
+	text-align: right;
 }
 
 section:nth-last-of-type(2) table {
@@ -164,4 +167,18 @@ section:nth-last-of-type(2) th {
 
 section:nth-last-of-type(2) td {
 	padding: 10px 0 10px 10px;
+}
+
+section:nth-last-of-type(1) h2 {
+	color: lime;
+}
+
+.form-wrapper {
+	margin: 0 auto;
+	background: #006400;
+	width: 66%
+}
+
+label {
+	color: lime;
 }
