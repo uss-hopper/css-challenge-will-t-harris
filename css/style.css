@@ -198,10 +198,12 @@ label {
 input {
 	display: block;
 	margin-left: 25px;
+	width: 35%;
 }
 
 textarea {
 	margin-left: 25px;
+	width: 35%;
 }
 
 button {
