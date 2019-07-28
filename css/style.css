@@ -224,6 +224,10 @@ footer {
 	text-align: center;
 }
 
-textarea::placeholder {
+#message::placeholder {
+	line-height: 30px;
+}
 
+textarea:placeholder-shown {
+	padding-left: 10px;
 }
