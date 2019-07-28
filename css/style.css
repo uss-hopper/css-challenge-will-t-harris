@@ -147,7 +147,8 @@ section:nth-last-of-type(2) {
 }
 
 section:nth-last-of-type(2) h2 {
-	display: inline-block;
+	justify-content: flex-end;
+	margin-right: 200px;
 	text-align: right;
 }
 
@@ -224,10 +225,11 @@ footer {
 	text-align: center;
 }
 
-#message::placeholder {
-	line-height: 30px;
+textarea:placeholder-shown {
+	padding-top: 5px;
+	padding-left: 13px;
 }
 
-textarea:placeholder-shown {
-	padding-left: 10px;
+form {
+	margin-bottom: 15px;
 }
