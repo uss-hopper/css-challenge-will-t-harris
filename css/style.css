@@ -84,13 +84,13 @@ header div em {
 header div h1 {
 	display: inline;
 	padding-right: 10px;
+	margin-left: -30px;
 	font-weight: bold;
 }
 
 img[src$=".gif"] {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 50px auto -25px;
 }
 
 .instructions-content {
@@ -98,6 +98,7 @@ img[src$=".gif"] {
 	text-align: left;
 	width: 500px;
 	margin-left: 50px;
+	word-spacing: 5px;
 }
 
 .instructions-wrapper {
